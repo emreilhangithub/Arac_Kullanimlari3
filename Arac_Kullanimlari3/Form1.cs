@@ -26,5 +26,10 @@ namespace Arac_Kullanimlari3
         {
             listBox1.Items.Add(dateTimePicker1.Text);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Add(textBox1.Text + " " + textBox2.Text + " " +maskedTextBox5.Text + " " + maskedTextBox6.Text + " " + comboBox1.Text + " " + dateTimePicker2.Text);
+        }
     }
 }
