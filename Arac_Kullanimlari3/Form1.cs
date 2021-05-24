@@ -16,5 +16,10 @@ namespace Arac_Kullanimlari3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(maskedTextBox1.Text+ " "+ maskedTextBox1.Text + " " + maskedTextBox2.Text + " " + maskedTextBox3.Text + " " + maskedTextBox4.Text);
+        }
     }
 }
